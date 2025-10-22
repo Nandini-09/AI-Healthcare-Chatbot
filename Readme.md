@@ -19,7 +19,10 @@ This project implements an end-to-end Retrieval-Augmented Generation (RAG) syste
     * Features a custom conversational prompt for a "highly knowledgeable and empathetic healthcare assistant."
     * Includes a function to calculate and display the quality metrics (**Cosine Similarity, BLEU, ROUGE**) in the live chat response.
 * **`data/`**: Directory for the medical PDF documents (e.g., `Medical_book.pdf`).
-* **`model/`**: Directory to store the local LLaMA 2 model file (e.g., `llama-2-7b-chat.ggmlv3.q4_0.bin`).
+* **`model/`**: Download the Llama 2 Model: llama-2-7b-chat.ggmlv3.q4_0.bin
+*  From the following link:
+https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main
+```.
 
 
 ### 1. Prerequisites
@@ -29,4 +32,5 @@ You will need a working Python environment (Python 3.10+ recommended).
 ### 2. Dependencies
 
 Install the required Python packages.
+
 
